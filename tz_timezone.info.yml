@@ -1,0 +1,6 @@
+name: TZ TimeZone
+type: module
+description: 'fixes timezone select options to easier to use.'
+package: Custom Modules
+version: 1
+core: 8.x
