@@ -1,6 +1,0 @@
-tz-timezone:
-  version: 1.x
-  js:
-    js/tz-timezone.js: {}
-  dependencies:
-    - core/jquery
