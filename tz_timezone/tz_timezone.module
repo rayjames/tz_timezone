@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_form_alter().
+ */
+function tz_timezone_form_alter(&$form, &$form_state, $form_id) {
+  
+  // adds the js file to the user add and user edit forms
+  if ($form_id == 'user_form' || $form_id == 'user_register_form') {
+    $form['#attached']['library'][] = 'tz_timezone/tz-timezone';  
+  }
+  
+}
